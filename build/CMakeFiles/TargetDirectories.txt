@@ -1,0 +1,17 @@
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/regsnap.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/makevolrgbraw.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/combinergb.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/savebinmasks.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/getroi.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/makevolrgb.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/testanisodiffgrad.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/getslices.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/imginfo.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/combinergb2.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/testanisodiff.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/makevol.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/getroislices.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/saveslices.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/makechecker.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/ALL_BUILD.dir
+/Users/maryana/Projects/ITKUtils/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,36 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x0e\x00M\x00a\x00k\x00e\x00V\x00o\x00l)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/maryana/projects/MakeVol/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=makevol
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=/home/maryana/Posdoc/AVID/Cases_Test/1802.14_jpeg/blockface/seg/1802.14_%03d.tif 001 163 teste.mha
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x0e\x00M\x00a\x00k\x00e\x00V\x00o\x00l\x00\x00\x00\x0e\x00m\x00a\x00k\x00e\x00v\x00o\x00l)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=file:///home/maryana/projects/MakeVol/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=MakeVol,makevol
+Use External Terminal=false
+Working Directory=
+isExecutable=false

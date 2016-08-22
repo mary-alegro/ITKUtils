@@ -34,3 +34,6 @@ Project Target=MakeVol,makevol
 Use External Terminal=false
 Working Directory=
 isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit

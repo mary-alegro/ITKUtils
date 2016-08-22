@@ -1,0 +1,17 @@
+CMakeLists.txt
+ImageInfo.cpp
+changevolhdr.cpp
+combinergb.cpp
+combinergb2.cpp
+getroi.cpp
+getroislices.cpp
+getslices.cpp
+makechecker.cpp
+makevol.cpp
+makevolrgb.cpp
+makevolrgbraw.cpp
+regsnap.cpp
+savebinmasks.cpp
+saveslices.cpp
+testanisodiff.cpp
+testanisodiffgrad.cpp

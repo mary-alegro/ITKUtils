@@ -1,0 +1,54 @@
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/maryana/Projects/ITKUtils/build_kdev/
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=changevolhdr
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=../../ants_histo2mri_RGB_0.15.nrrd ../../LC.nrrd ../../LC2.nrrd
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/maryana/Projects/ITKUtils/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=ITKUtils,changevolhdr
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=imginfo
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=../../LC2.nrrd
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=default
+Executable=file:///home/maryana/Projects/ITKUtils/
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=ITKUtils,imginfo
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit

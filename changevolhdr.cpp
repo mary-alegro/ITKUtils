@@ -106,16 +106,19 @@ int main( int argc, char * argv[] )
   std::cout << "Origin: " << origin << std::endl;
   std::cout << "Spacing: " << spacing << std::endl;
   std::cout << "Direction: " << direction << std::endl;
-  
-  filter->SetOutputOrigin(origin);
-  filter->ChangeOriginOn();
-  filter->SetOutputSpacing(spacing);
-  filter->ChangeSpacingOn();
-  filter->SetOutputDirection(direction);
-  filter->ChangeDirectionOn();
-  
+     
   filter->SetInput( reader->GetOutput() );
   writer->SetInput( filter->GetOutput() );
+  
+  //filter->SetReferenceImage(reader->GetOutput());
+  //filter->SetUseReferenceImage(true);
+  filter->SetOutputOrigin(origin);
+  filter->ChangeOriginOn();
+  //filter->SetOutputDirection(direction);
+  filter->ChangeDirectionOn();
+  filter->SetOutputSpacing(spacing);
+  filter->ChangeSpacingOn();
+
   try
     {
       writer->Update();
